@@ -7,14 +7,41 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
-
-.column {
+div.about p {
+  text-align: center;
+  padding: 10px;
+  width:400px;
+  font-size: 20px;
+}
+div.column {
   float: left;
   width: 33.33%;
   padding: 20px;
   margin: 20px;
 }
+/*marche pas mais j'essaie de faire en sorte que quand on change la taille de la fenêtre
+ça bouge tout pour que ça soit quand même tout sur la page.*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/*img petit prince*/
+#prince {
+  float:left;
+  display:block;
+  width:700px;
+}
 
+.row_home{
+  display:flex; /*pour avoir 2 éléments à côté*/
+  margin:auto;
+}
+.column_home{
+  flex:50%;
+  padding:20px;
+  margin:auto;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
