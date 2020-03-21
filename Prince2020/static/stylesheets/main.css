@@ -47,6 +47,12 @@ div.column {
   padding:20px;
   margin:auto;
 }
+.buttons {
+  margin:auto;
+  display:block;
+  width: auto;
+  padding:30px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -80,5 +86,5 @@ div.column {
 
 /*liens*/
 .text-my-own-color {
-  color: black !important; // Define your own color in your CSS
+  color: #bccad6 !important; // Define your own color in your CSS
 }
