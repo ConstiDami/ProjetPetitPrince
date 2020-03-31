@@ -1,5 +1,5 @@
 from flask import render_template, url_for
-from prince import app
+from prince import app, db
 from prince.models import Langue
 
 @app.route('/')
